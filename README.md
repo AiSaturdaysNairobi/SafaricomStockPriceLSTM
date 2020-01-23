@@ -187,7 +187,7 @@ if __name__ == "__main__":
 
 As a driver to predict the stock price based on historical data. Example program output is in the figure below:
 
-![](images/Figure_1.png)
+![](Figure_1.png)
 
 The fit is reasonable, though not great. Since the model uses only historical time series data, and does not really incorporate economic reasoning for changes in stock price, it should be used with great caution.
 
