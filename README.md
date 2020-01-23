@@ -103,7 +103,7 @@ int main()
 ```
 
 Compile the C program and then run it in the same directory as the downloaded html page. Suppose the program is named
-parse.c, then the following sequence of commands should produce the data in a format that is useable as input to Nico Jimenez's Python LSTM code](https://github.com/nicodjimenez/lstm/blob/master/lstm.py):
+parse.c, then the following sequence of commands should produce the data in a format that is useable as input to Nico Jimenez's Python LSTM [code](https://github.com/nicodjimenez/lstm/blob/master/lstm.py):
 
 ```
 gcc parse.c -o parse
@@ -187,6 +187,7 @@ if __name__ == "__main__":
 
 As a driver to predict the stock price based on historical data. Example program output is in the figure below:
 
+![](images/Figure_1.png)
 
 The fit is reasonable, though not great. Since the model uses only historical time series data, and does not really incorporate economic reasoning for changes in stock price, it should be used with great caution.
 
