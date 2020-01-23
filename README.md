@@ -1,5 +1,6 @@
-# SafaricomStockPriceLSTM
-Use an LSTM to fit time series for Safaricom stock price.
+# Safaricom Stock Price LSTM
+
+Notes on using an LSTM to fit time series for Safaricom stock price.
 
 ## Getting the data
 
